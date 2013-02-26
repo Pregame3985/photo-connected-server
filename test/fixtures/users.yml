@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  register_from: MyString
+  user_name: MyString
+  user_id: MyString
+  uuid: MyString
+  membership: 1
+  period: 2013-02-17 23:03:40
+  auto_renewal: false
+
+two:
+  register_from: MyString
+  user_name: MyString
+  user_id: MyString
+  uuid: MyString
+  membership: 1
+  period: 2013-02-17 23:03:40
+  auto_renewal: false

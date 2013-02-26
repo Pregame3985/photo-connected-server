@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Sns:</b>
+  <%= @profile.sns_id %>
+</p>
+
+<p>
+  <b>Sns user name:</b>
+  <%= @profile.sns_user_name %>
+</p>
+
+<p>
+  <b>Origin from:</b>
+  <%= @profile.origin_from %>
+</p>
+
+<p>
+  <b>Image total:</b>
+  <%= @profile.image_total %>
+</p>
+
+
+<%= link_to 'Edit', edit_profile_path(@profile) %> |
+<%= link_to 'Back', profiles_path %>

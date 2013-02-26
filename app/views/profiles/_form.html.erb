@@ -1,0 +1,33 @@
+<%= form_for(@profile) do |f| %>
+  <% if @profile.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@profile.errors.count, "error") %> prohibited this profile from being saved:</h2>
+
+      <ul>
+      <% @profile.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :sns_id %><br />
+    <%= f.text_field :sns_id %>
+  </div>
+  <div class="field">
+    <%= f.label :sns_user_name %><br />
+    <%= f.text_field :sns_user_name %>
+  </div>
+  <div class="field">
+    <%= f.label :origin_from %><br />
+    <%= f.text_field :origin_from %>
+  </div>
+  <div class="field">
+    <%= f.label :image_total %><br />
+    <%= f.number_field :image_total %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

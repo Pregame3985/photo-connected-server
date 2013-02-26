@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  sns_id: MyString
+  sns_user_name: MyString
+  origin_from: MyString
+  image_total: 1
+
+two:
+  sns_id: MyString
+  sns_user_name: MyString
+  origin_from: MyString
+  image_total: 1

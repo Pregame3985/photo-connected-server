@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  origin_profile_id: 1
+  target_profile_id: 1
+  synced_image_count: 1
+  failed_sync_image_count: 1
+
+two:
+  origin_profile_id: 1
+  target_profile_id: 1
+  synced_image_count: 1
+  failed_sync_image_count: 1

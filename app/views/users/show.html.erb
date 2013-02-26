@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Register from:</b>
+  <%= @user.register_from %>
+</p>
+
+<p>
+  <b>User name:</b>
+  <%= @user.user_name %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @user.user_id %>
+</p>
+
+<p>
+  <b>Uuid:</b>
+  <%= @user.uuid %>
+</p>
+
+<p>
+  <b>Membership:</b>
+  <%= @user.membership %>
+</p>
+
+<p>
+  <b>Period:</b>
+  <%= @user.period %>
+</p>
+
+<p>
+  <b>Auto renewal:</b>
+  <%= @user.auto_renewal %>
+</p>
+
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
